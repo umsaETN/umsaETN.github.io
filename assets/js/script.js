@@ -18,7 +18,14 @@ $(document).ready(function(){
             }
         }) // end of #partner-slider
 
-
+        $('.navbar-nav>li').hover(
+            function () {
+                //show submenu
+                $('ul', this).slideDown("fast");
+            }, function () {
+                //hide submenu
+                $('ul', this).slideUp("fast");
+            });
 
 
     // Turn off Google Map zooming
