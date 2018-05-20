@@ -113,7 +113,6 @@
         </div>
       </section>
 
-      
 
       <section class="probootstrap-section probootstrap-section-sm">
         <div class="container">
@@ -134,10 +133,15 @@
                     </ul>
                   </div>
                 </div>
+                
                 <div class="col-md-7 col-md-push-1  probootstrap-animate" id="probootstrap-content">
                   <h2>Get In Touch</h2>
                   <p>Contact us using the form below.</p>
-                  <form action="#" method="post" class="probootstrap-form">
+                  <!-- <form action="#" method="post" class="probootstrap-form"> -->
+                  <form onsubmit="sendEmail(event)">  
+                    <div id="alert-field" class="alert hidden">
+                        <p>Uh oh! Something went wrong!</p>
+                    </div>
                     <div class="form-group">
                       <label for="name">Full Name</label>
                       <input type="text" class="form-control" id="name" name="name">
@@ -161,11 +165,16 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div>          
         </div>
       </section>
       
-      <section class="probootstrap-cta">
+      <section id="map">
+        <iframe width="100%" height="450" align="center" frameborder="0" style="border:0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3825.5505678667887!2d-68.13723094986685!3d-16.498279588561218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915f20716d0aaad9%3A0xb5bee20335bd3408!2sEngineering+Department+-+UMSA!5e0!3m2!1sen!2sbo!4v1526407181722" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </section>
+
+
+      <!-- <section class="probootstrap-cta">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
@@ -174,7 +183,8 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
+
       <footer class="probootstrap-footer probootstrap-bg">
         <div class="container">
           <div class="row">
