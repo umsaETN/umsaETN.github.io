@@ -10,13 +10,13 @@ function formFocus() {
 function sendEmail(e) {
     e.preventDefault();
 
-    const POST_URL = 'https://script.google.com/macros/s/AKfycbz8kCws9x0eGiFlqDev1qjq5DiuqxWlW2JWOUU6x0yevVt5tN0/exec';
+    const POST_URL = 'https://script.google.com/macros/s/AKfycbyeYiMVoiJ1ucrQohOlUdFgBZ7jyB0EAZEaHOO77jfouRw6P1pJ/exec';
     
 
     const postRequest = {
         name: e.target['name-field'].value,
         email: e.target['email-field'].value,
-        project: e.target['project-field'].value,
+        subject: e.target['subject-field'].value,
         message: e.target['message-field'].value
     };
   
