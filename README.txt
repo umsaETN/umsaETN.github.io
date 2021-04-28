@@ -1,4 +1,4 @@
-THEME: Enlight - Free Bootstrap Themeeeee
+THEME: Enlight - Free Bootstrap Theme
 AUTHOR: ProBootstrap.com
 AUTHOR URI: https://probootstrap.com/
 Twitter: https://twitter.com/probootstrap
